@@ -1,0 +1,1024 @@
+﻿1. HTML: Elements, Attributes, Links, Formatting, Lists, Tables
+ <!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TOURISMFAV</title>
+</head>
+
+
+
+
+<body>
+    <h1>The BEST Movie According to USER</h1>
+    <h2>My Top 3 movies of all time</h2>
+    <hr />
+
+
+
+
+    <h3><a href="https://www.primevideo.com/region/eu/detail/Stree-2-Sarkate-Ka-Aatank/0L3XGEP30JCFV7H3N1ZAJG2VFV"><u>Stree
+                -2</u></a></h3>
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcR4Wi7I5w0cH6OzxSQ0vPNACrCiEXJeRcSX_RsteIZRF9wVPg6Z"
+        alt="Stree -2" />
+    <p><i>It is the best horror comedy movie of 2024 for me.</i></p>
+    <p><b>Stree 2: Sarkate Ka Aatank</b> (transl. Stree 2: Terror of the Headless) is a 2024 Indian Hindi-language
+        comedy horror film directed by Amar Kaushik, written by Niren Bhatt and produced jointly by Maddock Films and
+        Jio Studios. It is the fourth instalment in the Maddock Horror Comedy Universe and serves as the sequel to the
+        movie Stree (2018). The film stars Shraddha Kapoor, Rajkummar Rao, Pankaj Tripathi, Abhishek Banerjee and
+        Aparshakti Khurana as a group of friends who must defeat Sarkata, a headless malevolent entity abducting the
+        women of Chanderi, with Tamannaah Bhatia and Varun Dhawan also playing crucial roles.</p>
+
+
+
+
+    <h3><a href="https://www.pokemon.com/us"><u>POKEMON</u></a></h3>
+    <img src="image-1.jpg" alt="Pokemon" />
+    <p><i>I know it is an anime. But it has some my favourite movies and trust me it's soo good.</i></p>
+    <p><b>Pokémon</b> is a Japanese media franchise consisting of video games, animated series and films, a trading card
+        game, and other related media. The franchise takes place in a shared universe in which humans co-exist with
+        creatures known as Pokémon, a large variety of species endowed with special powers. The franchise's primary
+        target audience is children aged 5 to 12, but it is known to attract people of all ages. Pokémon is estimated to
+        be the world's highest-grossing media franchise and is one of the best-selling video game franchises.</p>
+
+
+
+
+    <h3><a href="https://www.netflix.com/in/title/70121522"><u>3-idiots</u></a></h3>
+    <img src="image-2.jpg" alt="3 Idiots" />
+    <p><i>This movie never gets old. Its still in my top after several years. I am not gonna lie, I have watched it like
+            13 times.</i></p>
+    <p><b>3 Idiots</b> is a 2009 Indian Hindi-language coming-of-age comedy-drama film written, edited and directed by
+        Rajkumar Hirani, co-written by Abhijat Joshi and produced by Vidhu Vinod Chopra. The film stars Aamir Khan, R.
+        Madhavan and Sharman Joshi in the title roles, while Kareena Kapoor, Boman Irani, Mona Singh and Omi Vaidya play
+        supporting roles. Narrated through two parallel timelines, one in the present and the other set ten years
+        earlier, the story follows the friendship of three students at an Indian engineering college and is a satire
+        about the intrinsic paternalism under the Indian education system.</p>
+
+
+
+
+    <hr />
+
+
+
+
+    <div>
+        <h2>Summary Table of Movies</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Movie</th>
+                    <th>Genre</th>
+                    <th>Year</th>
+                    <th>Description</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Stree -2</td>
+                    <td>Comedy Horror</td>
+                    <td>2024</td>
+                    <td>Best horror comedy movie of 2024 about a headless malevolent entity abducting women.</td>
+                    <td><a href="https://www.primevideo.com/region/eu/detail/Stree-2-Sarkate-Ka-Aatank/0L3XGEP30JCFV7H3N1ZAJG2VFV"
+                            target="_blank">Watch on Prime Video</a></td>
+                </tr>
+                <tr>
+                    <td>Pokémon</td>
+                    <td>Animation/Adventure</td>
+                    <td>Ongoing Franchise</td>
+                    <td>Japanese media franchise with video games, animated series, films, and trading card game.</td>
+                    <td><a href="https://www.pokemon.com/us" target="_blank">Official Pokémon Site</a></td>
+                </tr>
+                <tr>
+                    <td>3 Idiots</td>
+                    <td>Comedy Drama</td>
+                    <td>2009</td>
+                    <td>Coming-of-age film about friendship and satire of the Indian education system.</td>
+                    <td><a href="https://www.netflix.com/in/title/70121522" target="_blank">Watch on Netflix</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+
+        <hr />
+
+
+
+
+        <h2>Choose Your Favorite Movie</h2>
+        <form action="#" method="post">
+            <label for="movies">Select a movie:</label>
+            <select id="movies" name="movie">
+                <option value="stree2">Stree -2</option>
+                <option value="pokemon">Pokémon</option>
+                <option value="3idiots">3 Idiots</option>
+            </select>
+            <button type="submit">Submit</button>
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+        <h2>Watch Trailer</h2>
+        <div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KVnheXywIbY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yecO136AokQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/DKzBmRRdPXo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            </iframe>
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+</body>
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Write a HTML script to implement HTML elements,attributes, frames, forms, multimedia: images, audio and videos.
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>HTML Elements, Attributes, Links, Formatting, Lists & Tables — Example</title>
+
+
+  <!-- Simple styling so the examples look tidy -->
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height: 1.45; padding: 24px; max-width: 900px; margin: auto; }
+    header, section { margin-bottom: 28px; }
+    pre { background:#f7f7f7; padding:12px; border-radius:6px; overflow:auto; }
+    table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+    th, td { border: 1px solid #cfcfcf; padding: 8px; text-align: left; }
+    caption { caption-side: top; font-weight: bold; margin-bottom: 6px; }
+    .note { font-size: 0.95rem; color:#555; }
+    .muted { color:#666; font-size:0.95rem; }
+    .badge { display:inline-block; padding:2px 8px; border-radius:999px; background:#e9f2ff; color:#0366d6; font-weight:600; font-size:0.85rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="top" title="Demo page">HTML demo: Elements, Attributes, Links, Formatting, Lists & Tables</h1>
+    <p class="muted">A compact example showing common HTML features you asked for — play with it and modify freely.</p>
+  </header>
+
+
+  <!-- ELEMENTS & ATTRIBUTES -->
+  <section aria-labelledby="elements-heading">
+    <h2 id="elements-heading">1. Basic elements & attributes</h2>
+
+
+    <!-- Attributes: id, class, title, lang, data-* -->
+    <p id="intro" class="note" title="Introduction paragraph" lang="en">
+      This is a <strong>paragraph</strong> element. It has an <code>id="intro"</code>, a <code>class="note"</code>,
+      and a <code>title</code> attribute shown on hover. You can add custom attributes like <code>data-source="lesson1"</code>.
+    </p>
+
+
+    <p data-source="lesson1" aria-label="example paragraph with custom data attribute">
+      Example of a custom data attribute: <code>data-source="lesson1"</code>. Data attributes are useful for JavaScript hooks.
+    </p>
+
+
+    <!-- Image element with alt attribute (accessibility) -->
+    <figure>
+      <img src="https://via.placeholder.com/400x120?text=HTML+Example" alt="Placeholder image with text 'HTML Example'" width="400" height="120">
+      <figcaption class="muted">Figure: Use <code>alt</code> for accessibility.</figcaption>
+    </figure>
+  </section>
+
+
+  <!-- HYPERLINK -->
+  <section aria-labelledby="link-heading">
+    <h2 id="link-heading">2. Hyperlink (anchor) examples</h2>
+
+
+    <p>
+      External link opening in a new tab:
+      <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener noreferrer" title="MDN HTML docs">
+        MDN — HTML documentation
+      </a>.
+    </p>
+
+
+    <p>
+      Internal link (anchor to the top heading):
+      <a href="#top" title="Back to top">Back to top ↑</a>
+    </p>
+  </section>
+
+
+  <!-- FORMATTING -->
+  <section aria-labelledby="format-heading">
+    <h2 id="format-heading">3. Text formatting elements</h2>
+
+
+    <p>
+      Inline formatting: <strong>strong</strong> (semantic emphasis), <em>emphasis</em>, <b>bold</b>, <i>italic</i>,
+      <u>underline</u>, <mark>highlight</mark>, <small>small text</small>, <del>deleted</del>.
+    </p>
+
+
+    <p>
+      Superscript: E = mc<sup>2</sup>. Subscript: H<sub>2</sub>O.
+    </p>
+
+
+    <p>
+      Quotation: <q cite="https://example.com">This is a short inline quote</q>.
+    </p>
+  </section>
+
+
+  <!-- LISTS -->
+  <section aria-labelledby="lists-heading">
+    <h2 id="lists-heading">4. Lists (ordered, unordered, definition)</h2>
+
+
+    <p>Unordered list (bullets):</p>
+    <ul>
+      <li class="badge" data-priority="low">HTML basics</li>
+      <li class="badge" data-priority="medium">CSS essentials</li>
+      <li class="badge" data-priority="high">JavaScript fundamentals</li>
+    </ul>
+
+
+    <p>Ordered list (numbers):</p>
+    <ol start="1" type="1">
+      <li>Write markup</li>
+      <li>Style with CSS</li>
+      <li>Enhance with JavaScript</li>
+    </ol>
+
+
+    <p>Definition list (term — description):</p>
+    <dl>
+      <dt>HTML</dt>
+      <dd>HyperText Markup Language — the structure of web pages.</dd>
+
+
+      <dt>Attribute</dt>
+      <dd>An extra piece of information on an element, like <code>id</code> or <code>class</code>.</dd>
+    </dl>
+  </section>
+
+
+  <!-- TABLES -->
+  <section aria-labelledby="tables-heading">
+    <h2 id="tables-heading">5. Tables</h2>
+    <p class="muted">Tables should be used for tabular data; use proper header (th) and scope attributes for accessibility.</p>
+
+
+    <table aria-describedby="sales-caption">
+      <caption id="sales-caption">Quarterly sales (units)</caption>
+      <thead>
+        <tr>
+          <th scope="col">Product</th>
+          <th scope="col">Q1</th>
+          <th scope="col">Q2</th>
+          <th scope="col">Q3</th>
+          <th scope="col">Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Widget A</th>
+          <td>120</td>
+          <td>135</td>
+          <td>150</td>
+          <td>405</td>
+        </tr>
+        <tr>
+          <th scope="row">Widget B</th>
+          <td>90</td>
+          <td>100</td>
+          <td>110</td>
+          <td>300</td>
+        </tr>
+        <tr>
+          <th scope="row">Widget C</th>
+          <td>60</td>
+          <td>80</td>
+          <td>140</td>
+          <td>280</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Totals</th>
+          <td>270</td>
+          <td>315</td>
+          <td>400</td>
+          <td>985</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+
+  <!-- EXTRA: small script to show how data-* can be used -->
+  <section aria-labelledby="script-heading">
+    <h2 id="script-heading">6. Small JavaScript demo using attributes</h2>
+    <p class="muted">Click the button to read the <code>data-source</code> attribute we set earlier.</p>
+
+
+    <button id="showDataBtn" aria-controls="dataOutput">Show data-source from the intro paragraph</button>
+    <div id="dataOutput" role="status" aria-live="polite" style="margin-top:8px;"></div>
+
+
+    <script>
+      // JavaScript reads attributes like `data-source` and displays the value.
+      (function () {
+        const btn = document.getElementById('showDataBtn');
+        const output = document.getElementById('dataOutput');
+
+
+        btn.addEventListener('click', function () {
+          const intro = document.querySelector('#intro');
+          // read data attribute via dataset
+          const ds = intro.dataset.source || 'no data-source found';
+          output.textContent = 'data-source = ' + ds;
+        });
+      })();
+    </script>
+  </section>
+
+
+  <footer style="margin-top:36px; font-size:0.95rem;">
+    <p class="muted">Tip: experiment by changing attributes and tags in this file — that's the fastest way to learn.</p>
+  </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+3. Write an External CSS Script including color,background, fonts, tables, lists, selectors, pseudo classes and elements.
+body {
+  background-color: #f0f8ff;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+
+h1, h2 {
+  color: #0044cc;
+  text-align: center;
+}
+
+
+p {
+  font-size: 16px;
+}
+
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  background-color: #ffffff;
+}
+
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: center;
+}
+
+
+th {
+  background-color: #cce5ff;
+  color: #000;
+}
+
+
+ul {
+  list-style-type: square;
+  background-color: #e6f7ff;
+  padding: 10px;
+}
+
+
+ol {
+  list-style-type: decimal;
+  background-color: #fffbe6;
+  padding: 10px;
+}
+
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: red;
+}
+
+
+p::first-letter {
+  font-size: 22px;
+  color: #ff6600;
+  font-weight: bold;
+}
+
+
+li:hover {
+  background-color: #d9f2ff;
+}
+
+
+#special {
+  color: darkgreen;
+  font-style: italic;
+}
+
+
+.highlight {
+  background-color: yellow;
+}
+
+
+//Index.html file
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML and CSS Example</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <h1>HTML Elements and CSS Styling</h1>
+  <p id="special">This paragraph has an ID selector applied through CSS.</p>
+
+
+  <h2>Formatting and Links</h2>
+  <p>
+    This is a <b>bold</b>, <i>italic</i>, and <u>underlined</u> text example.<br>
+    Visit <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a> for more information.
+  </p>
+
+
+  <h2>Unordered List</h2>
+  <ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+  </ul>
+
+
+  <h2>Ordered List</h2>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+
+
+  <h2>Table Example</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Course</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td>Manaswi</td>
+      <td>Data Science</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>Avi</td>
+      <td>Computer Graphics</td>
+      <td>92</td>
+    </tr>
+  </table>
+
+
+  <h2>Class Selector Example</h2>
+  <p class="highlight">This paragraph uses a class selector with a yellow background.</p>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+4. Write an Internal CSS Script including color,background, fonts, tables, lists, selectors, pseudo classes and elements
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internal CSS Example</title>
+
+
+  <style>
+    body {
+      background-color: #f0f8ff;
+      color: #222;
+      font-family: "Arial", sans-serif;
+      margin: 20px;
+    }
+
+
+    h1, h2 {
+      color: #0044cc;
+      text-align: center;
+    }
+
+
+    p {
+      font-size: 16px;
+    }
+
+
+    table {
+      width: 60%;
+      margin: 20px auto;
+      border-collapse: collapse;
+      background-color: #ffffff;
+    }
+
+
+    th, td {
+      border: 1px solid #333;
+      padding: 8px;
+      text-align: center;
+    }
+
+
+    th {
+      background-color: #cce5ff;
+      color: #000;
+    }
+
+
+    ul {
+      list-style-type: square;
+      background-color: #e6f7ff;
+      padding: 10px;
+      width: 40%;
+    }
+
+
+    ol {
+      list-style-type: decimal;
+      background-color: #fffbe6;
+      padding: 10px;
+      width: 40%;
+    }
+
+
+    a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+
+
+    a:hover {
+      color: red;
+    }
+
+
+    li:hover {
+      background-color: #d9f2ff;
+    }
+
+
+    p::first-letter {
+      font-size: 22px;
+      color: #ff6600;
+      font-weight: bold;
+    }
+
+
+    #special {
+      color: darkgreen;
+      font-style: italic;
+    }
+
+
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+
+
+  <h1>Internal CSS Demonstration</h1>
+
+
+  <p id="special">This paragraph uses an ID selector for unique styling.</p>
+
+
+  <h2>Formatting and Links</h2>
+  <p>
+    This is a <b>bold</b>, <i>italic</i>, and <u>underlined</u> example.<br>
+    Visit <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a> for more info.
+  </p>
+
+
+  <h2>Unordered List</h2>
+  <ul>
+    <li>Apple</li>
+    <li>Banana</li>
+    <li>Cherry</li>
+  </ul>
+
+
+  <h2>Ordered List</h2>
+  <ol>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+
+
+  <h2>Table Example</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Course</th>
+      <th>Marks</th>
+    </tr>
+    <tr>
+      <td>Manaswi</td>
+      <td>Data Science</td>
+      <td>95</td>
+    </tr>
+    <tr>
+      <td>Avi</td>
+      <td>Computer Graphics</td>
+      <td>92</td>
+    </tr>
+  </table>
+
+
+  <h2>Class Selector Example</h2>
+  <p class="highlight">This paragraph is highlighted using a class selector.</p>
+
+
+</body>
+</html>
+
+
+.
+
+
+5. Write an Inline CSS Script including color,background, fonts, tables, lists, selectors, pseudo classes and elements.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inline CSS Example</title>
+</head>
+<body style="background-color: #f0f8ff; font-family: Arial; color: #333;">
+
+
+  <h1 style="color: darkblue; text-align: center;">Inline CSS Demonstration</h1>
+
+
+  <p style="font-size: 18px; background-color: #d6eaff; padding: 10px;">
+    This paragraph uses <span style="color: red; font-weight: bold;">inline CSS</span> for styling.
+  </p>
+
+
+  <a href="#" style="color: green; text-decoration: none;"
+     onmouseover="this.style.color='red'" onmouseout="this.style.color='green'">
+     Hover over this link
+  </a>
+
+
+  <h2 style="margin-top: 20px;">List Example:</h2>
+  <ul style="list-style-type: square; background-color: #fff8dc; padding: 10px;">
+    <li style="color: blue;">HTML</li>
+    <li style="color: purple;">CSS</li>
+    <li style="color: brown;">JavaScript</li>
+  </ul>
+
+
+  <h2 style="margin-top: 20px;">Table Example:</h2>
+  <table style="border-collapse: collapse; width: 60%; background-color: #fafafa;" border="1" align="center">
+    <tr style="background-color: #b0e0e6;">
+      <th style="padding: 8px;">Name</th>
+      <th style="padding: 8px;">Subject</th>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">Manaswi</td>
+      <td style="padding: 8px;">Data Science</td>
+    </tr>
+    <tr>
+      <td style="padding: 8px;">Avi</td>
+      <td style="padding: 8px;">Web Development</td>
+    </tr>
+  </table>
+
+
+  <p style="margin-top: 30px; text-align: center;">
+    <span style="font-size: 20px; color: darkred;">Thank you!</span>
+  </p>
+
+
+</body>
+</html>
+
+
+
+
+
+
+6. Write a Java script to find number is even or odd, arraybuilt-in function and onclick change background color.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Small JS Example</title>
+</head>
+<body id="b" style="text-align:center; font-family:Arial;">
+
+
+  <h3>JavaScript Example</h3>
+
+
+  <input type="number" id="num" placeholder="Enter number">
+  <button onclick="check()">Check Even/Odd</button>
+  <p id="res"></p>
+
+
+  <button onclick="changeBg()">Change Background</button>
+
+
+  <script>
+    function check() {
+      let n = document.getElementById("num").value;
+      document.getElementById("res").innerText = (n % 2 == 0) ? "Even" : "Odd";
+      let arr = [1,2,3,4,5];
+      console.log(arr.reverse()); // array built-in function
+    }
+    function changeBg() {
+      document.getElementById("b").style.background = "lightblue";
+    }
+  </script>
+
+
+</body>
+</html>
+
+
+
+
+7. Write a Java script to Asynchronous programming andcallbacks.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Async and Callback Example</title>
+</head>
+<body style="font-family:Arial; text-align:center;">
+
+
+  <h3>Asynchronous Programming using Callback</h3>
+
+
+  <script>
+    function showMessage(callback) {
+      setTimeout(() => {
+        document.write("Task done after 2 seconds<br>");
+        callback();
+      }, 2000);
+    }
+
+
+    function afterTask() {
+      document.write("Callback function executed!");
+    }
+
+
+    showMessage(afterTask);
+  </script>
+
+
+</body>
+</html>
+
+
+
+
+8. Write a Java script to promises and arrow function.
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Promise & Arrow Function</title>
+</head>
+<body style="font-family:Arial; text-align:center;">
+
+
+  <h3>Promises and Arrow Function Example</h3>
+
+
+  <script>
+    let task = new Promise((resolve, reject) => {
+      let done = true;
+      done ? resolve("Task completed successfully!") : reject("Task failed!");
+    });
+
+
+    task
+      .then(msg => document.write(msg))
+      .catch(err => document.write(err));
+  </script>
+
+
+</body>
+</html>
+
+
+
+
+9. Write a script including React Components,Props, State, Forms, Events, Routers, Refs, Keys.
+import React, { useState, useRef } from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+
+function Welcome(props) {
+  return <h2>Hello, {props.name}!</h2>;
+}
+
+
+function FormExample() {
+  const [input, setInput] = useState("");
+  const ref = useRef();
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Submitted: " + input);
+    ref.current.focus();
+  };
+
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <input
+        ref={ref}
+        type="text"
+        value={input}
+        onChange={(e) => setInput(e.target.value)}
+        placeholder="Enter text"
+      />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+
+function ListExample() {
+  const items = ["React", "Props", "State"];
+  return (
+    <ul>
+      {items.map((item, index) => (
+        <li key={index}>{item}</li>   {/* Keys used here */}
+      ))}
+    </ul>
+  );
+}
+
+
+function Home() {
+  return (
+    <div>
+      <Welcome name="Manaswi" />
+      <FormExample />
+      <ListExample />
+    </div>
+  );
+}
+
+
+export default function App() {
+  return (
+    <Router>
+      <nav>
+        <Link to="/">Home</Link> | <Link to="/about">About</Link>
+      </nav>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<h2>About Page</h2>} />
+      </Routes>
+    </Router>
+  );
+}
+
+
+
+
+
+
+10. Write a Node.Js script involving Callbacks,Event loops, Creating express app.
+// Import express
+const express = require('express');
+const app = express();
+const port = 3000;
+
+
+// Simple callback function example
+function greet(name, callback) {
+    setTimeout(() => {
+        callback(`Hello, ${name}!`);
+    }, 1000); // simulate async task
+}
+
+
+// Event loop demonstration
+console.log("Start of script");
+
+
+greet("Manaswi", (message) => {
+    console.log(message); // runs after 1 second
+});
+
+
+console.log("End of script"); // runs first due to async callback
+
+
+// Express app: basic route
+app.get("/", (req, res) => {
+    res.send("<h1>Welcome to Node.js Express App!</h1>");
+});
+
+
+app.get("/about", (req, res) => {
+    res.send("<p>This page demonstrates callbacks and event loop.</p>");
+});
+
+
+// Start server
+app.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}`);
+});
